@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blockchain Dictionary</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blockchain Dictionary</h1>
+        <form method="post">
+            <input type="text" name="term" placeholder="Enter a blockchain term" required>
+            <button type="submit">Search</button>
+        </form>
+        {% if definition %}
+            <div class="result">
+                <strong>Definition:</strong>
+                <p>{{ definition }}</p>
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

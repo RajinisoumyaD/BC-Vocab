@@ -1,0 +1,20 @@
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: inline-block;
+}
+input, button {
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+.result {
+    margin-top: 20px;
+}
