@@ -1,0 +1,150 @@
+{
+    "1. Core Blockchain Concepts": {
+        "Blockchain": "A decentralized, distributed ledger technology that records transactions across many computers in such a way that the registered transactions cannot be altered retroactively.",
+        "Block": "A container data structure that holds a batch of transactions and a link to the previous block.",
+        "Genesis Block": "The first block of a blockchain, from which all subsequent blocks follow.",
+        "Node": "Any active electronic device that maintains copies of the blockchain and keeps the network functioning.",
+        "Decentralization": "The distribution of authority, functions, and data away from a central point, reducing the risk of central failure or manipulation.",
+        "Distributed Ledger": "A database that is consensually shared and synchronized across multiple sites, institutions, or geographies.",
+        "Immutability": "The characteristic of a blockchain that ensures that once data has been written, it cannot be changed or deleted.",
+        "Transparency": "A feature where all transactions are visible and verifiable by all participants of the network.",
+        "Fork": "A change in protocol that can result in a split in the blockchain into two separate paths.",
+        "Merkle Tree": "A structure that allows efficient and secure verification of content in large data structures."
+    },
+    "2. Consensus Mechanisms": {
+        "Consensus Algorithm": "A method used in blockchain systems to achieve agreement on a single data value among distributed processes or systems.",
+        "Proof of Work (PoW)": "Requires participants to solve computational puzzles to validate transactions and create new blocks.",
+        "Proof of Stake (PoS)": "Validators are chosen based on the number of tokens they hold and are willing to lock up as stake.",
+        "Delegated Proof of Stake (DPoS)": "A variation of PoS where stakeholders vote for a few delegates to validate transactions.",
+        "Proof of Authority (PoA)": "A consensus mechanism where validators are selected based on their identity and reputation.",
+        "Byzantine Fault Tolerance (BFT)": "The property of a system to resist failures and continue to operate correctly despite nodes behaving maliciously."
+    },
+    "3. Cryptography and Security": {
+        "Hash Function": "A mathematical function that converts an input into a fixed-length string, serving as a digital fingerprint.",
+        "SHA-256": "A specific hash function used by Bitcoin that outputs a 256-bit hash.",
+        "Digital Signature": "A cryptographic technique that allows someone to prove the authenticity and integrity of a message or transaction.",
+        "Public Key": "A cryptographic key that can be shared openly and is used to encrypt data or verify a digital signature.",
+        "Private Key": "A secret cryptographic key used to decrypt data or create digital signatures.",
+        "Encryption": "The process of converting information into code to prevent unauthorized access."
+    },
+    "4. Smart Contracts and DApps": {
+        "Smart Contract": "Self-executing contracts with the terms directly written into lines of code.",
+        "DApp (Decentralized Application)": "An application that runs on a decentralized network, typically using smart contracts.",
+        "Gas": "A fee required to conduct a transaction or execute a smart contract on Ethereum.",
+        "Solidity": "A programming language used to write smart contracts on the Ethereum blockchain.",
+        "EVM (Ethereum Virtual Machine)": "The runtime environment for smart contracts in Ethereum.",
+        "Oracles": "External data providers that feed real-world data to smart contracts."
+    },
+    "5. Tokens and Cryptocurrencies": {
+        "Cryptocurrency": "A digital or virtual currency that uses cryptography for security and operates independently of a central bank.",
+        "Token": "A unit of value issued on a blockchain, which can represent assets, rights, or utility.",
+        "Altcoin": "Any cryptocurrency other than Bitcoin.",
+        "Stablecoin": "A type of cryptocurrency that is pegged to a stable asset like fiat currency.",
+        "Utility Token": "Tokens that provide users with access to a product or service.",
+        "Security Token": "Tokens that represent ownership or other rights and are subject to regulation.",
+        "ICO (Initial Coin Offering)": "A fundraising method where new tokens are sold to investors.",
+        "Airdrop": "Distribution of tokens for free to promote a project or reward users."
+    },
+    "6. Blockchain Platforms and Technologies": {
+        "Bitcoin": "The first decentralized cryptocurrency and blockchain, created by Satoshi Nakamoto.",
+        "Ethereum": "A blockchain platform with smart contract functionality.",
+        "Hyperledger": "An open-source collaborative effort to advance cross-industry blockchain technologies.",
+        "Polkadot": "A multichain network enabling interoperability between blockchains.",
+        "Solana": "A high-performance blockchain supporting smart contracts and DApps.",
+        "Layer 1": "The base layer of blockchain architecture (e.g., Ethereum, Bitcoin).",
+        "Layer 2": "Solutions built on top of Layer 1 to improve scalability and speed."
+    },
+    "7. Use Cases and Applications": {
+        "DeFi (Decentralized Finance)": "A financial ecosystem built on blockchain, without traditional intermediaries.",
+        "NFT (Non-Fungible Token)": "Unique digital assets that represent ownership of a specific item or piece of content.",
+        "Supply Chain Management": "Tracking the origin and journey of products using blockchain for transparency.",
+        "Voting Systems": "Blockchain-based systems that provide secure and transparent voting.",
+        "Digital Identity": "A blockchain-based identity that is secure, verifiable, and user-controlled.",
+        "Healthcare Records": "Storing and sharing health records securely on the blockchain."
+    },
+    "8. Development and Tools": {
+        "Blockchain Explorer": "A tool to view transactions, addresses, blocks, and other activities on a blockchain.",
+        "Testnet": "A separate blockchain used for testing and development without real assets.",
+        "Mainnet": "The actual blockchain where real transactions take place.",
+        "Hard Fork": "A radical change to a blockchain protocol that makes previously invalid blocks/transactions valid.",
+        "Soft Fork": "A backward-compatible upgrade where old nodes still recognize the new blocks.",
+        "Wallet": "A digital tool used to store, send, and receive cryptocurrencies."
+    },
+    "9. Emerging Trends and Technologies": {
+        "Interoperability": "The ability of different blockchain systems to communicate and share data.",
+        "Scalability": "The capability of a blockchain network to handle an increasing number of transactions.",
+        "Sharding": "A method of splitting the blockchain into smaller pieces to improve scalability.",
+        "Zero-Knowledge Proofs": "A cryptographic technique allowing one party to prove to another that a statement is true without revealing information.",
+        "DAOs (Decentralized Autonomous Organizations)": "Organizations governed by smart contracts and community consensus.",
+        "Cross-chain": "The ability to transfer assets and data across different blockchain networks."
+    },
+    "10.Decentralized Finance (DeFi)": {
+        "Decentralized Finance (DeFi)": "Financial services built on blockchain without intermediaries like banks.",
+        "Liquidity Pool": "A pool of tokens locked in a smart contract used to facilitate trading.",
+        "Automated Market Maker (AMM)": "A protocol that uses liquidity pools to enable automated trading.",
+        "Yield Farming": "The process of earning interest or rewards by staking or lending crypto assets.",
+        "Lending Protocol": "Platforms that allow users to lend and borrow cryptocurrencies directly.",
+        "Stablecoin": "Crypto assets pegged to a stable value (e.g., USD).",
+        "Flash Loan": "A loan taken out and repaid within one blockchain transaction."
+    },
+    "11.Governance and Regulations": {
+        "Decentralized Autonomous Organization (DAO)": "An organization governed by smart contracts and community voting.",
+        "On-Chain Governance": "Decision-making process carried out on the blockchain itself.",
+        "Off-Chain Governance": "Decision-making processes happening outside the blockchain, like forums or meetings.",
+        "Regulatory Compliance": "Following laws and regulations applicable to blockchain and cryptocurrencies.",
+        "KYC (Know Your Customer)": "The process of verifying the identity of users.",
+        "AML (Anti-Money Laundering)": "Procedures to prevent illegally obtained funds from entering the financial system.",
+        "Token Sale (ICO/IDO/IEO)": "Methods to raise funds by selling tokens to investors."
+    },
+    "12.Wallets and Keys": {
+        "Crypto Wallet": "A digital tool to store, send, and receive cryptocurrencies.",
+        "Hot Wallet": "A wallet connected to the internet, used for frequent transactions.",
+        "Cold Wallet (Cold Storage)": "Offline wallets used for secure long-term storage.",
+        "Hardware Wallet": "A physical device that securely stores private keys offline.",
+        "Seed Phrase (Recovery Phrase)": "A set of words used to recover a crypto wallet.",
+        "Public Address": "A string of characters derived from the public key used to receive funds.",
+        "Private Key": "Secret key used to sign transactions and access the wallet."
+    },
+    "13.Exchanges and Trading": {
+        "Cryptocurrency Exchange": "Platforms for buying, selling, and trading cryptocurrencies.",
+        "Centralized Exchange (CEX)": "Exchanges operated by a company, holding users’ funds.",
+        "Decentralized Exchange (DEX)": "Peer-to-peer platforms that allow direct crypto trades without intermediaries.",
+        "Order Book": "A list of buy and sell orders on an exchange.",
+        "Market Order": "An order to buy or sell immediately at the current market price.",
+        "Limit Order": "An order to buy or sell at a specific price or better.",
+        "Liquidity": "The ease with which an asset can be bought or sold without affecting its price."
+    },
+    "14.Security Practices": {
+        "Two-Factor Authentication (2FA)": "An extra layer of security requiring two forms of identification.",
+        "Phishing": "A cyberattack that tricks users into revealing private information.",
+        "51% Attack": "When a single entity controls over 50% of mining power, allowing them to manipulate the blockchain.",
+        "Cold Storage": "Keeping private keys offline to protect against hacking.",
+        "Multi-Signature (MultiSig)": "Wallets requiring multiple signatures to authorize a transaction.",
+        "Smart Contract Audit": "A thorough examination of smart contract code for vulnerabilities."
+    },
+    "15.Use Cases": {
+        "Supply Chain Management": "Using blockchain to track the origin and movement of goods.",
+        "Identity Management": "Decentralized and secure digital identity verification.",
+        "Healthcare": "Secure sharing of medical records and data interoperability.",
+        "Voting Systems": "Transparent and tamper-proof digital voting.",
+        "Real Estate": "Tokenizing property ownership and simplifying transactions.",
+        "Digital Rights Management": "Protecting copyrights and royalty payments via blockchain.",
+        "Cross-Border Payments": "Faster and cheaper international money transfers."
+    },
+    "16.Emerging Technologies": {
+        "Interoperability": "The ability of different blockchain systems to communicate and exchange data.",
+        "Oracles": "Services that feed external data to smart contracts.",
+        "Sidechains": "Independent blockchains attached to a main chain to enhance scalability.",
+        "Layer 0": "Protocols that enable blockchain networks to connect and communicate.",
+        "Quantum Computing": "Potential future technology that could break current cryptography.",
+        "Decentralized Storage": "Distributed data storage systems like IPFS or Filecoin."
+    },
+    "17.Future Trends": {
+        "Web3": "The next generation of the internet emphasizing decentralization and user control.",
+        "Tokenization": "Representing physical or digital assets as blockchain tokens.",
+        "Decentralized Identity (DID)": "User-controlled identity systems that don’t rely on centralized authorities.",
+        "Privacy Coins": "Cryptocurrencies designed to provide enhanced privacy and anonymity.",
+        "Central Bank Digital Currency (CBDC)": "Digital currencies issued by central banks.",
+        "Blockchain-as-a-Service (BaaS)": "Cloud-based services that allow businesses to build blockchain apps without managing infrastructure."
+    }
+}
